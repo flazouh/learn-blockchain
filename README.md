@@ -56,6 +56,14 @@ go test ./blockchain/...
 
 Covers genesis block, `Add`, validation (valid chain, invalid hash, broken link), and mining.
 
+## Troubleshooting
+
+| Issue | Fix |
+|-------|-----|
+| `go: command not found` | Install Go from [go.dev](https://go.dev/dl/) and ensure `go` is on your `PATH`. |
+| Tests fail or `go run` errors | From the project root run `go mod tidy` and try again. |
+| Mining feels slow | Lower the difficulty in code (fewer leading zeros = faster mining). |
+
 ## Contributing
 
 Pull requests and ideas are welcome. Open an issue to discuss bigger changes, or just fork, tweak, and send a PR. Keep the scope small and educational.
