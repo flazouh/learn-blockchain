@@ -41,6 +41,11 @@ So: **blocks**, **proof-of-work**, and **chain integrity**. No networking, no co
 | **Difficulty** | How many leading zeros the hash must have. Higher = more work to mine. |
 | **Proof-of-work** | Mining by brute-forcing the nonce until the hash satisfies the difficulty; makes tampering costly. |
 
+## Further reading
+
+- [Bitcoin whitepaper](https://bitcoin.org/bitcoin.pdf) — the original blockchain design.
+- [Building Blockchain in Go](https://jeiwan.cc/posts/building-blockchain-in-go-part-1/) — a longer, step-by-step tutorial if you want to go deeper (networking, wallets, persistence).
+
 ## Project layout
 
 ```
