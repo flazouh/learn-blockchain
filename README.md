@@ -32,6 +32,15 @@ You’ll see a chain created, transactions added, blocks mined (SHA-256 with lea
 
 So: **blocks**, **proof-of-work**, and **chain integrity**. No networking, no consensus, no wallets — ideal for learning the core ideas.
 
+## Concepts
+
+| Term | Meaning |
+|------|--------|
+| **Hash** | SHA-256 of block data (index, timestamp, transactions, previous hash, nonce). Identifies the block and ties it to the chain. |
+| **Nonce** | Number that miners change until the block hash meets the difficulty (e.g. starts with enough zeros). |
+| **Difficulty** | How many leading zeros the hash must have. Higher = more work to mine. |
+| **Proof-of-work** | Mining by brute-forcing the nonce until the hash satisfies the difficulty; makes tampering costly. |
+
 ## Project layout
 
 ```
